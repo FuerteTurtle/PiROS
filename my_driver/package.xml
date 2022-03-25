@@ -2,7 +2,7 @@
 <package format="2">
   <name>my_driver</name>
   <version>0.0.0</version>
-  <description>The my_driver package Will essentially duplicate the function of the telop package</description>
+  <description>The my_driver package Will essentially duplicate the function of the teleop package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -53,6 +53,8 @@
   <build_depend>rospy</build_depend>
   <build_export_depend>rospy</build_export_depend>
   <exec_depend>rospy</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
